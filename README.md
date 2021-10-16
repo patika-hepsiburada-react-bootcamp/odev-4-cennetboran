@@ -1,6 +1,12 @@
-# Still in development 👻
+# Still in development 🌦
 
 --
+# Preview 🌟
+
+<img width="800"  src="https://i.im.ge/2021/10/17/oO1O5p.gif"> 
+
+
+
 
 # Gereksinimler
 

@@ -1,0 +1,183 @@
+/* card */
+
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 16px;
+} */
+ul.select-search__options{
+  padding: 0;
+}
+.weather-card {
+  width: 325px;
+  height: 485px;
+  background: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px 10px rgba(203, 203, 199, 0.38);
+}
+
+.weather-card--landmark {
+  width: 100%;
+  height: 300px;
+  background: #fef5d2;
+  position: relative;
+  overflow: hidden;
+}
+
+.weather-card--cityname {
+  color: #d95720;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.weather-card--cityname h1 {
+  font-size: 1em;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.weather-card--details {
+  color: #bfbfbf;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.weather-card--temperature {
+  width: 90%;
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #d95720;
+}
+
+.weather-card--temperature ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-card--temperature ul li {
+  display: inline-block;
+  width: 20%;
+  float: left;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-temp {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.mid-temp {
+  font-size: 1.5em;
+}
+
+.current-temp {
+  font-size: 3em;
+  position: relative;
+}
+
+.left-50 {
+  transform: translateX(-15%);
+}
+
+.right-50 {
+  transform: translateX(15%);
+}
+
+.current-temp:after {
+  content: "°";
+  position: absolute;
+  top: -0.5em;
+  right: -0.3em;
+}
+
+.clouds {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background: url("https://s32.postimg.org/yoihkgp79/clouds.png");
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.landmark {
+  transform: scale(1.05) translateY(5%);
+}
+
+/* test */
+.App {
+  text-align: center;
+  padding-top: 1%;
+  height: 100%;
+}
+
+body,
+html {
+}
+
+/* Weather Component starts*/
+
+/* Weather Component ends*/
+
+/* WeatherCard starts*/
+.weather-card {
+  width: 23%;
+  margin-left: 38%;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+
+.card-img {
+  background-color: rgb(195, 232, 241);
+}
+
+.card-body {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.weather-card .card {
+  background-color: black;
+  background-clip: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.35rem;
+}
+
+.temperature {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.desc {
+  font-size: 15px;
+}

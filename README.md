@@ -9,7 +9,12 @@
 <img width="800"  src="https://i.im.ge/2021/10/17/oO1O5p.gif"> 
 
 
-
+# Built With
+* [Apollo Client](https://www.apollographql.com/docs/react/)
+* [GraphQL](https://graphql.org//)
+* [React](https://tr.reactjs.org/)
+* [Scss](https://sass-lang.com/guide/)
+* [Netlify](https://www.netlify.com/)
 
 # Gereksinimler
 
